@@ -1,0 +1,1 @@
+g++ ./src/*/*.cpp ./src/*.cpp -I ./incl && ./a.out
