@@ -6,7 +6,7 @@
 #    By: tbruinem <tbruinem@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/06/04 21:22:59 by tbruinem      #+#    #+#                  #
-#    Updated: 2022/06/05 15:31:09 by tbruinem      ########   odam.nl          #
+#    Updated: 2022/06/05 20:31:56 by tbruinem      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,8 @@ endif
 CC = g++
 
 PATTERNS =	strategy \
-			observer
+			observer \
+			decorator
 
 obj/%.o: src/%.cpp
 	mkdir -p $(@D)
