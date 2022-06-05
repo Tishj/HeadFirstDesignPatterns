@@ -1,4 +1,4 @@
-#include "quack_behavior/squeak_quack.hpp"
+#include "strategy/quack_behavior/squeak_quack.hpp"
 #include "common/iostream.hpp"
 
 void SqueakQuack::Quack() const

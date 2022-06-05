@@ -1,6 +1,6 @@
-#include "duck/rubber_duck.hpp"
-#include "duck/wooden_duck.hpp"
-#include "duck/mallard_duck.hpp"
+#include "strategy/duck/rubber_duck.hpp"
+#include "strategy/duck/wooden_duck.hpp"
+#include "strategy/duck/mallard_duck.hpp"
 
 #include "common/memory.hpp"
 #include "common/iostream.hpp"

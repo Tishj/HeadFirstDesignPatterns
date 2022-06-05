@@ -1,6 +1,6 @@
 #pragma once
 
-#include "fly_behavior.hpp"
+#include "strategy/fly_behavior.hpp"
 
 class NoFly : public FlyBehavior {
 public:

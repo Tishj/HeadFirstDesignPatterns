@@ -1,6 +1,6 @@
 #pragma once
 
-#include "quack_behavior.hpp"
+#include "strategy/quack_behavior.hpp"
 
 class SqueakQuack : public QuackBehavior {
 public:

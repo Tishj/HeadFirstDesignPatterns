@@ -1,7 +1,7 @@
 #pragma once
 
-#include "fly_behavior.hpp"
-#include "quack_behavior.hpp"
+#include "strategy/fly_behavior.hpp"
+#include "strategy/quack_behavior.hpp"
 #include "common/memory.hpp"
 
 class Duck {

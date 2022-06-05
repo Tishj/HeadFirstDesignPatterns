@@ -1,6 +1,6 @@
 #pragma once
 
-#include "duck.hpp"
+#include "strategy/duck.hpp"
 
 class RubberDuck : public Duck {
 	public:

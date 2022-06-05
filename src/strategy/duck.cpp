@@ -1,4 +1,4 @@
-#include "duck.hpp"
+#include "strategy/duck.hpp"
 
 Duck::Duck(unique_ptr<FlyBehavior> fly_behavior, unique_ptr<QuackBehavior> quack_behavior) :
 	fly_behavior(move(fly_behavior)), quack_behavior(move(quack_behavior))
